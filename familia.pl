@@ -68,4 +68,4 @@ suegro(Suegro, Yerno) :-
     padre(Suegro, Esposa).
 
 feliz(Persona) :-  
-    casado(Persona,_).
+    casado(Persona, _).

@@ -66,3 +66,6 @@ casado(Persona1, Persona2) :-
 suegro(Suegro, Yerno) :-
     casado(Yerno, Esposa),
     padre(Suegro, Esposa).
+
+feliz(Persona) :-  
+    casado(Persona,_).
